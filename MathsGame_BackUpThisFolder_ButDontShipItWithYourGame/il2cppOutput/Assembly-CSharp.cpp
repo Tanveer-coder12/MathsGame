@@ -1,0 +1,3129 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+template <typename T1>
+struct VirtualActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+
+struct Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1;
+struct Dictionary_2_t105D472D44D47824865F70DA14E6FF232779B17C;
+struct Func_3_tC721DF8CDD07ED66A4833A19A2ED2302608C906C;
+struct Func_3_t6F6D9932638EA1A5A45303C6626C818C25D164E5;
+struct List_1_t2CDCA768E7F493F5EDEBC75AEB200FD621354E35;
+struct List_1_tE6BB71ABF15905EFA2BE92C38A2716547AEADB19;
+struct List_1_t3A076A19AF26E22A128C32B5C19804DDD2877607;
+struct TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4;
+struct TMP_TextProcessingStack_1U5BU5D_t08293E0BB072311BB96170F351D1083BCA97B9B2;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259;
+struct DecimalU5BU5D_t93BA0C88FA80728F73B792EE1A5199D0C060B615;
+struct FontWeightU5BU5D_t2A406B5BAB0DD0F06E7F1773DB062E4AF98067BA;
+struct HighlightStateU5BU5D_tA878A0AF1F4F52882ACD29515AADC277EE135622;
+struct HorizontalAlignmentOptionsU5BU5D_t4D185662282BFB910D8B9A8199E91578E9422658;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct LevelSelectButtonU5BU5D_t16001AF314F208A82C804B72A9F668B160A8FE15;
+struct MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D;
+struct MaterialReferenceU5BU5D_t7491D335AB3E3E13CE9C0F5E931F396F6A02E1F2;
+struct MathsLevelU5BU5D_t3CA952107C78AA45B18BB1B7CB9AFFE0987E1ACF;
+struct RichTextTagAttributeU5BU5D_t5816316EFD8F59DBC30B9F88E15828C564E47B6D;
+struct SecondarySpriteTextureU5BU5D_tC322D73EA4B9A8B747013A3584DEFEAFC0D87192;
+struct SelectableU5BU5D_t4160E135F02A40F75A63F787D36F31FEC6FE91A9;
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
+struct TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99;
+struct TMP_ColorGradientU5BU5D_t2F65E8C42F268DFF33BB1392D94BCF5B5087308A;
+struct UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F;
+struct UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA;
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+struct WordWrapStateU5BU5D_t473D59C9DBCC949CE72EF1EB471CBA152A6CEAC9;
+struct TextProcessingElementU5BU5D_tC3E97D1672C8DB6E1F91DB2C0987D0ED9A2E7113;
+struct AnimationTriggers_tA0DC06F89C5280C6DD972F6F4C8A56D7F4F79074;
+struct AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20;
+struct AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299;
+struct Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26;
+struct CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct FontData_tB8E562846C6CB59C43260F69AE346B9BF3157224;
+struct GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6;
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931;
+struct ITextPreprocessor_tDBB49C8B68D7B80E8D233B9D9666C43981EFAAB9;
+struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E;
+struct LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A;
+struct LevelSelectButton_t8CCED90692C11BEE6426AF0A3B23FEE9CC8EF750;
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+struct MathsLevel_t54ED0A3F72F09ABE36668D046B496B25414F932E;
+struct Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct Numpad_t393C69246800359ABA968F3772B8AD736AF66BED;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670;
+struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5;
+struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712;
+struct Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99;
+struct StartMenuManager_t18BE2A0A6C72AE4B02C244F3586925068EE6D44F;
+struct String_t;
+struct TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35;
+struct TMP_ColorGradient_t17B51752B4E9499A1FF7D875DCEC1D15A0F4AEBB;
+struct TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160;
+struct TMP_SpriteAnimator_t2E0F016A61CA343E3222FF51E7CF0E53F9F256E4;
+struct TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39;
+struct TMP_Style_tA9E5B1B35EBFE24EF980CEA03251B638282E120C;
+struct TMP_StyleSheet_t70C71699F5CB2D855C361DBB78A44C901236C859;
+struct TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9;
+struct TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5;
+struct TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D;
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62;
+struct TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC;
+struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7;
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E;
+struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct PCMReaderCallback_t3396D9613664F0AFF65FB91018FD0F901CC16F1E;
+struct PCMSetPositionCallback_t8D7135A2FB40647CAEC93F5254AD59E18DEB6072;
+struct ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C;
+struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
+struct MissingCharacterEventCallback_t955241181324E0FEF9A9BDBA400E8780F8979DE6;
+
+IL2CPP_EXTERN_C RuntimeClass* Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* MathsLevelU5BU5D_t3CA952107C78AA45B18BB1B7CB9AFFE0987E1ACF_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____52C2789F064F1FCF6B75223273B7F7A21FB32463EA84FF06D117DC9E33334B68_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____81680BA3320CAACCDA09CB8BF98793B77F94E48DF4737FF970975FD202D2D348_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745;
+IL2CPP_EXTERN_C String_t* _stringLiteral2A09DF75C5D61E7FBE9E93BB970FB25C6C2144C0;
+IL2CPP_EXTERN_C String_t* _stringLiteral3E538D25AD88E153C305B95581F14918239F2431;
+IL2CPP_EXTERN_C String_t* _stringLiteral793124C2C69F7C5AD956B8E7C24C95DFD06780A5;
+IL2CPP_EXTERN_C String_t* _stringLiteral8F8BFCFC439A636B20C06C334A493AB7004843ED;
+IL2CPP_EXTERN_C String_t* _stringLiteralA68AF01D35B427079781DE3A8B2923BD14263BE3;
+IL2CPP_EXTERN_C String_t* _stringLiteralB0519F2CF4865500EC050B17B9044F287B5D7AB6;
+IL2CPP_EXTERN_C String_t* _stringLiteralB06C09D3B65BD0412141145FA5AC4D25EE36635D;
+IL2CPP_EXTERN_C String_t* _stringLiteralD7951D621CA910E08FEFFEE2059034A2219CF376;
+IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+IL2CPP_EXTERN_C String_t* _stringLiteralFBC0D19D530C684526E5CF04F2428B7B8CD4289E;
+
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct LevelSelectButtonU5BU5D_t16001AF314F208A82C804B72A9F668B160A8FE15;
+struct MathsLevelU5BU5D_t3CA952107C78AA45B18BB1B7CB9AFFE0987E1ACF;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_tBB65183F1134474D09FF49B95625D25472B9BA8B 
+{
+};
+struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA  : public RuntimeObject
+{
+};
+struct MathsLevel_t54ED0A3F72F09ABE36668D046B496B25414F932E  : public RuntimeObject
+{
+	String_t* ___question;
+	int32_t ___correctAnswer;
+};
+struct ProgressManager_t6ED6EF3999F0ACE83B9AE95C092658B7D4C1E5F9  : public RuntimeObject
+{
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C 
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___itemStack;
+	int32_t ___index;
+	int32_t ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 
+{
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___itemStack;
+	int32_t ___index;
+	float ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C 
+{
+	TMP_ColorGradientU5BU5D_t2F65E8C42F268DFF33BB1392D94BCF5B5087308A* ___itemStack;
+	int32_t ___index;
+	TMP_ColorGradient_t17B51752B4E9499A1FF7D875DCEC1D15A0F4AEBB* ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
+};
+struct Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int32_t ___rgba;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___rgba_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			uint8_t ___r;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			uint8_t ___r_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___g_OffsetPadding[1];
+			uint8_t ___g;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___g_OffsetPadding_forAlignmentOnly[1];
+			uint8_t ___g_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___b_OffsetPadding[2];
+			uint8_t ___b;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___b_OffsetPadding_forAlignmentOnly[2];
+			uint8_t ___b_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___a_OffsetPadding[3];
+			uint8_t ___a;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___a_OffsetPadding_forAlignmentOnly[3];
+			uint8_t ___a_forAlignmentOnly;
+		};
+	};
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct MaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B 
+{
+	int32_t ___index;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___spriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	bool ___isDefaultMaterial;
+	bool ___isFallbackMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___fallbackMaterial;
+	float ___padding;
+	int32_t ___referenceCount;
+};
+struct MaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B_marshaled_pinvoke
+{
+	int32_t ___index;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___spriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___isDefaultMaterial;
+	int32_t ___isFallbackMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___fallbackMaterial;
+	float ___padding;
+	int32_t ___referenceCount;
+};
+struct MaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B_marshaled_com
+{
+	int32_t ___index;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___spriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___isDefaultMaterial;
+	int32_t ___isFallbackMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___fallbackMaterial;
+	float ___padding;
+	int32_t ___referenceCount;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD 
+{
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_HighlightedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_PressedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_SelectedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_DisabledSprite;
+};
+struct SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD_marshaled_pinvoke
+{
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_HighlightedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_PressedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_SelectedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_DisabledSprite;
+};
+struct SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD_marshaled_com
+{
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_HighlightedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_PressedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_SelectedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_DisabledSprite;
+};
+struct TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC 
+{
+	uint8_t ___bold;
+	uint8_t ___italic;
+	uint8_t ___underline;
+	uint8_t ___strikethrough;
+	uint8_t ___highlight;
+	uint8_t ___superscript;
+	uint8_t ___subscript;
+	uint8_t ___uppercase;
+	uint8_t ___lowercase;
+	uint8_t ___smallcaps;
+};
+struct TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6 
+{
+	float ___m_Left;
+	float ___m_Right;
+	float ___m_Top;
+	float ___m_Bottom;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D111_t45DA8D21BACB6BF81FAD508EA4F700D6EEC1A842 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D111_t45DA8D21BACB6BF81FAD508EA4F700D6EEC1A842__padding[111];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D200_tC1BC488283310E32C2FC279DD5836449C756F371 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D200_tC1BC488283310E32C2FC279DD5836449C756F371__padding[200];
+	};
+};
+#pragma pack(pop, tp)
+struct SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777 
+{
+	TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35* ___character;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___materialIndex;
+};
+struct SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777_marshaled_pinvoke
+{
+	TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35* ___character;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___materialIndex;
+};
+struct SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777_marshaled_com
+{
+	TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35* ___character;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___materialIndex;
+};
+struct TextBackingContainer_t33D1CE628E7B26C45EDAC1D87BEF2DD22A5C6361 
+{
+	UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___m_Array;
+	int32_t ___m_Index;
+};
+struct TextBackingContainer_t33D1CE628E7B26C45EDAC1D87BEF2DD22A5C6361_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___m_Array;
+	int32_t ___m_Index;
+};
+struct TextBackingContainer_t33D1CE628E7B26C45EDAC1D87BEF2DD22A5C6361_marshaled_com
+{
+	Il2CppSafeArray* ___m_Array;
+	int32_t ___m_Index;
+};
+struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E 
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___FilePathsData;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	bool ___IsEditorOnly;
+};
+struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 
+{
+	Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* ___itemStack;
+	int32_t ___index;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 
+{
+	MaterialReferenceU5BU5D_t7491D335AB3E3E13CE9C0F5E931F396F6A02E1F2* ___itemStack;
+	int32_t ___index;
+	MaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 
+{
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_NormalColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_HighlightedColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_PressedColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_SelectedColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_DisabledColor;
+	float ___m_ColorMultiplier;
+	float ___m_FadeDuration;
+};
+struct ColorMode_tA7A815AAB9F175EFBA0AE0814E55728432A880BF 
+{
+	int32_t ___value__;
+};
+struct Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___min;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___max;
+};
+struct FontStyles_t9E611EE6BBE6E192A73EAFF7872596517C527FF5 
+{
+	int32_t ___value__;
+};
+struct FontWeight_tA2585C0A73B70D31CE71E7843149098A5E16BC80 
+{
+	int32_t ___value__;
+};
+struct HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B 
+{
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___color;
+	TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6 ___padding;
+};
+struct HorizontalAlignmentOptions_tCC21260E9FBEC656BA7783643ED5F44AFF7955A1 
+{
+	int32_t ___value__;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD 
+{
+	intptr_t ___m_Ptr;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct TMP_TextElementType_t51EE6662436732F22C6B599F5757B7F35F706342 
+{
+	int32_t ___value__;
+};
+struct TextAlignmentOptions_tF3FA9020F7E2AF1A48660044540254009A22EF01 
+{
+	int32_t ___value__;
+};
+struct TextOverflowModes_t7DCCD00C16E3223CE50CDDCC53F785C0405BE203 
+{
+	int32_t ___value__;
+};
+struct TextRenderFlags_tE023FF398ECFE57A1DBC6FD2A1AF4AE9620F6E1C 
+{
+	int32_t ___value__;
+};
+struct TextWrappingModes_t982BC65D6DA703E73C04B99286285ECD3DDF207E 
+{
+	int32_t ___value__;
+};
+struct TextureMappingOptions_t0E1A47C529DEB45A875486256E7026E97C940DAE 
+{
+	int32_t ___value__;
+};
+struct VertexGradient_t2C057B53C0EA6E987C2B7BAB0305E686DA1C9A8F 
+{
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___topLeft;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___topRight;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___bottomLeft;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___bottomRight;
+};
+struct VertexSortingOrder_t95B7AEDBDCAACC3459B6476E5CCC594A6422FFA8 
+{
+	int32_t ___value__;
+};
+struct VerticalAlignmentOptions_tCEF70AF60282B71AEEE14D51253CE6A61E72D855 
+{
+	int32_t ___value__;
+};
+struct FillMethod_t36837ED12068DF1582CC20489D571B0BCAA7AD19 
+{
+	int32_t ___value__;
+};
+struct Type_t81D6F138C2FC745112D5247CD91BD483EDFFC041 
+{
+	int32_t ___value__;
+};
+struct Mode_t2D49D0E10E2FDA0026278C2400C16033888D0542 
+{
+	int32_t ___value__;
+};
+struct Transition_tF856A77C9FAC6D26EA3CA158CF68B739D35397B3 
+{
+	int32_t ___value__;
+};
+struct TextInputSources_t41387D6C9CB16E60390F47A15AEB8185BE966D26 
+{
+	int32_t ___value__;
+};
+struct TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 
+{
+	FontWeightU5BU5D_t2A406B5BAB0DD0F06E7F1773DB062E4AF98067BA* ___itemStack;
+	int32_t ___index;
+	int32_t ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D 
+{
+	HighlightStateU5BU5D_tA878A0AF1F4F52882ACD29515AADC277EE135622* ___itemStack;
+	int32_t ___index;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 
+{
+	HorizontalAlignmentOptionsU5BU5D_t4D185662282BFB910D8B9A8199E91578E9422658* ___itemStack;
+	int32_t ___index;
+	int32_t ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct AudioResource_t35B84706031E4F08C928B1640B804839F4B6500A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C 
+{
+	int32_t ___m_Mode;
+	bool ___m_WrapAround;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnUp;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnDown;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnLeft;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnRight;
+};
+struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C_marshaled_pinvoke
+{
+	int32_t ___m_Mode;
+	int32_t ___m_WrapAround;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnUp;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnDown;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnLeft;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnRight;
+};
+struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C_marshaled_com
+{
+	int32_t ___m_Mode;
+	int32_t ___m_WrapAround;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnUp;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnDown;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnLeft;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnRight;
+};
+struct TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 
+{
+	int32_t ___controlCharacterCount;
+	int32_t ___characterCount;
+	int32_t ___visibleCharacterCount;
+	int32_t ___spaceCount;
+	int32_t ___visibleSpaceCount;
+	int32_t ___wordCount;
+	int32_t ___firstCharacterIndex;
+	int32_t ___firstVisibleCharacterIndex;
+	int32_t ___lastCharacterIndex;
+	int32_t ___lastVisibleCharacterIndex;
+	float ___length;
+	float ___lineHeight;
+	float ___ascender;
+	float ___baseline;
+	float ___descender;
+	float ___maxAdvance;
+	float ___width;
+	float ___marginLeft;
+	float ___marginRight;
+	int32_t ___alignment;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___lineExtents;
+};
+struct AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20  : public AudioResource_t35B84706031E4F08C928B1640B804839F4B6500A
+{
+	PCMReaderCallback_t3396D9613664F0AFF65FB91018FD0F901CC16F1E* ___m_PCMReaderCallback;
+	PCMSetPositionCallback_t8D7135A2FB40647CAEC93F5254AD59E18DEB6072* ___m_PCMSetPositionCallback;
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A 
+{
+	int32_t ___previous_WordBreak;
+	int32_t ___total_CharacterCount;
+	int32_t ___visible_CharacterCount;
+	int32_t ___visibleSpaceCount;
+	int32_t ___visible_SpriteCount;
+	int32_t ___visible_LinkCount;
+	int32_t ___firstCharacterIndex;
+	int32_t ___firstVisibleCharacterIndex;
+	int32_t ___lastCharacterIndex;
+	int32_t ___lastVisibleCharIndex;
+	int32_t ___lineNumber;
+	float ___maxCapHeight;
+	float ___maxAscender;
+	float ___maxDescender;
+	float ___startOfLineAscender;
+	float ___maxLineAscender;
+	float ___maxLineDescender;
+	float ___pageAscender;
+	int32_t ___horizontalAlignment;
+	float ___marginLeft;
+	float ___marginRight;
+	float ___xAdvance;
+	float ___preferredWidth;
+	float ___preferredHeight;
+	float ___renderedWidth;
+	float ___renderedHeight;
+	float ___previousLineScale;
+	int32_t ___wordCount;
+	int32_t ___fontStyle;
+	int32_t ___italicAngle;
+	float ___fontScaleMultiplier;
+	float ___currentFontSize;
+	float ___baselineOffset;
+	float ___lineOffset;
+	bool ___isDrivenLineSpacing;
+	int32_t ___lastBaseGlyphIndex;
+	float ___cSpace;
+	float ___mSpace;
+	TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* ___textInfo;
+	TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 ___lineInfo;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___vertexColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___underlineColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___strikethroughColor;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___highlightState;
+	TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC ___basicStyleStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___italicAngleStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___colorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___underlineColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___strikethroughColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___highlightColorStack;
+	TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D ___highlightStateStack;
+	TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C ___colorGradientStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___sizeStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___indentStack;
+	TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 ___fontWeightStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___styleStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___baselineStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___actionStack;
+	TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 ___materialReferenceStack;
+	TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 ___lineJustificationStack;
+	int32_t ___spriteAnimationID;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___currentFontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___currentSpriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___currentMaterial;
+	int32_t ___currentMaterialIndex;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___meshExtents;
+	bool ___tagNoParsing;
+	bool ___isNonBreakingSpace;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___fxRotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___fxScale;
+};
+struct WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A_marshaled_pinvoke
+{
+	int32_t ___previous_WordBreak;
+	int32_t ___total_CharacterCount;
+	int32_t ___visible_CharacterCount;
+	int32_t ___visibleSpaceCount;
+	int32_t ___visible_SpriteCount;
+	int32_t ___visible_LinkCount;
+	int32_t ___firstCharacterIndex;
+	int32_t ___firstVisibleCharacterIndex;
+	int32_t ___lastCharacterIndex;
+	int32_t ___lastVisibleCharIndex;
+	int32_t ___lineNumber;
+	float ___maxCapHeight;
+	float ___maxAscender;
+	float ___maxDescender;
+	float ___startOfLineAscender;
+	float ___maxLineAscender;
+	float ___maxLineDescender;
+	float ___pageAscender;
+	int32_t ___horizontalAlignment;
+	float ___marginLeft;
+	float ___marginRight;
+	float ___xAdvance;
+	float ___preferredWidth;
+	float ___preferredHeight;
+	float ___renderedWidth;
+	float ___renderedHeight;
+	float ___previousLineScale;
+	int32_t ___wordCount;
+	int32_t ___fontStyle;
+	int32_t ___italicAngle;
+	float ___fontScaleMultiplier;
+	float ___currentFontSize;
+	float ___baselineOffset;
+	float ___lineOffset;
+	int32_t ___isDrivenLineSpacing;
+	int32_t ___lastBaseGlyphIndex;
+	float ___cSpace;
+	float ___mSpace;
+	TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* ___textInfo;
+	TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 ___lineInfo;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___vertexColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___underlineColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___strikethroughColor;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___highlightState;
+	TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC ___basicStyleStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___italicAngleStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___colorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___underlineColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___strikethroughColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___highlightColorStack;
+	TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D ___highlightStateStack;
+	TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C ___colorGradientStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___sizeStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___indentStack;
+	TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 ___fontWeightStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___styleStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___baselineStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___actionStack;
+	TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 ___materialReferenceStack;
+	TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 ___lineJustificationStack;
+	int32_t ___spriteAnimationID;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___currentFontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___currentSpriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___currentMaterial;
+	int32_t ___currentMaterialIndex;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___meshExtents;
+	int32_t ___tagNoParsing;
+	int32_t ___isNonBreakingSpace;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___fxRotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___fxScale;
+};
+struct WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A_marshaled_com
+{
+	int32_t ___previous_WordBreak;
+	int32_t ___total_CharacterCount;
+	int32_t ___visible_CharacterCount;
+	int32_t ___visibleSpaceCount;
+	int32_t ___visible_SpriteCount;
+	int32_t ___visible_LinkCount;
+	int32_t ___firstCharacterIndex;
+	int32_t ___firstVisibleCharacterIndex;
+	int32_t ___lastCharacterIndex;
+	int32_t ___lastVisibleCharIndex;
+	int32_t ___lineNumber;
+	float ___maxCapHeight;
+	float ___maxAscender;
+	float ___maxDescender;
+	float ___startOfLineAscender;
+	float ___maxLineAscender;
+	float ___maxLineDescender;
+	float ___pageAscender;
+	int32_t ___horizontalAlignment;
+	float ___marginLeft;
+	float ___marginRight;
+	float ___xAdvance;
+	float ___preferredWidth;
+	float ___preferredHeight;
+	float ___renderedWidth;
+	float ___renderedHeight;
+	float ___previousLineScale;
+	int32_t ___wordCount;
+	int32_t ___fontStyle;
+	int32_t ___italicAngle;
+	float ___fontScaleMultiplier;
+	float ___currentFontSize;
+	float ___baselineOffset;
+	float ___lineOffset;
+	int32_t ___isDrivenLineSpacing;
+	int32_t ___lastBaseGlyphIndex;
+	float ___cSpace;
+	float ___mSpace;
+	TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* ___textInfo;
+	TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 ___lineInfo;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___vertexColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___underlineColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___strikethroughColor;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___highlightState;
+	TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC ___basicStyleStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___italicAngleStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___colorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___underlineColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___strikethroughColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___highlightColorStack;
+	TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D ___highlightStateStack;
+	TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C ___colorGradientStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___sizeStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___indentStack;
+	TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 ___fontWeightStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___styleStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___baselineStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___actionStack;
+	TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 ___materialReferenceStack;
+	TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 ___lineJustificationStack;
+	int32_t ___spriteAnimationID;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___currentFontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___currentSpriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___currentMaterial;
+	int32_t ___currentMaterialIndex;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___meshExtents;
+	int32_t ___tagNoParsing;
+	int32_t ___isNonBreakingSpace;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___fxRotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___fxScale;
+};
+struct TMP_TextProcessingStack_1_t2DDA00FFC64AF6E3AFD475AB2086D16C34787E0F 
+{
+	WordWrapStateU5BU5D_t473D59C9DBCC949CE72EF1EB471CBA152A6CEAC9* ___itemStack;
+	int32_t ___index;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct AudioBehaviour_t2DC0BEF7B020C952F3D2DA5AAAC88501C7EEB941  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299  : public AudioBehaviour_t2DC0BEF7B020C952F3D2DA5AAAC88501C7EEB941
+{
+};
+struct GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___questionText;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___levelText;
+	Numpad_t393C69246800359ABA968F3772B8AD736AF66BED* ___numpad;
+	MathsLevelU5BU5D_t3CA952107C78AA45B18BB1B7CB9AFFE0987E1ACF* ___levels;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___levelCompletePanel;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___audioSource;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___levelCompleteSound;
+	int32_t ___currentLevel;
+	bool ___waitingForNextLevel;
+	bool ___gameFinished;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___GameComplete;
+};
+struct LevelSelectButton_t8CCED90692C11BEE6426AF0A3B23FEE9CC8EF750  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	int32_t ___levelNumber;
+	StartMenuManager_t18BE2A0A6C72AE4B02C244F3586925068EE6D44F* ___menuManager;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___button;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___buttonText;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___buttonImage;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___unlockedColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___completedColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___lockedColor;
+};
+struct Numpad_t393C69246800359ABA968F3772B8AD736AF66BED  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	int32_t ___correctAnswer;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___answerText;
+	GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* ___gameManager;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___AD;
+	String_t* ___currentAnswer;
+};
+struct StartMenuManager_t18BE2A0A6C72AE4B02C244F3586925068EE6D44F  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___mainMenuPanel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___levelSelectionPanel;
+	LevelSelectButtonU5BU5D_t16001AF314F208A82C804B72A9F668B160A8FE15* ___levelButtons;
+};
+struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_Material;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_Color;
+	bool ___m_SkipLayoutUpdate;
+	bool ___m_SkipMaterialUpdate;
+	bool ___m_RaycastTarget;
+	bool ___m_RaycastTargetCache;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_RaycastPadding;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_RectTransform;
+	CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* ___m_CanvasRenderer;
+	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___m_Canvas;
+	bool ___m_VertsDirty;
+	bool ___m_MaterialDirty;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyLayoutCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyVertsCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyMaterialCallback;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_CachedMesh;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___m_CachedUvs;
+	TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4* ___m_ColorTweenRunner;
+	bool ___U3CuseLegacyMeshGenerationU3Ek__BackingField;
+};
+struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	bool ___m_EnableCalled;
+	Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C ___m_Navigation;
+	int32_t ___m_Transition;
+	ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 ___m_Colors;
+	SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD ___m_SpriteState;
+	AnimationTriggers_tA0DC06F89C5280C6DD972F6F4C8A56D7F4F79074* ___m_AnimationTriggers;
+	bool ___m_Interactable;
+	Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* ___m_TargetGraphic;
+	bool ___m_GroupsAllowInteraction;
+	int32_t ___m_CurrentIndex;
+	bool ___U3CisPointerInsideU3Ek__BackingField;
+	bool ___U3CisPointerDownU3Ek__BackingField;
+	bool ___U3ChasSelectionU3Ek__BackingField;
+	List_1_t2CDCA768E7F493F5EDEBC75AEB200FD621354E35* ___m_CanvasGroupCache;
+};
+struct Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098  : public Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712
+{
+	ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* ___m_OnClick;
+};
+struct MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E  : public Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931
+{
+	bool ___m_ShouldRecalculateStencil;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_MaskMaterial;
+	RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* ___m_ParentMask;
+	bool ___m_Maskable;
+	bool ___m_IsMaskingGraphic;
+	bool ___m_IncludeForMasking;
+	CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8* ___m_OnCullStateChanged;
+	bool ___m_ShouldRecalculate;
+	int32_t ___m_StencilValue;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_Corners;
+};
+struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
+{
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_Sprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_OverrideSprite;
+	int32_t ___m_Type;
+	bool ___m_PreserveAspect;
+	bool ___m_FillCenter;
+	int32_t ___m_FillMethod;
+	float ___m_FillAmount;
+	bool ___m_FillClockwise;
+	int32_t ___m_FillOrigin;
+	float ___m_AlphaHitTestMinimumThreshold;
+	bool ___m_Tracked;
+	bool ___m_UseSpriteMesh;
+	float ___m_PixelsPerUnitMultiplier;
+	float ___m_CachedReferencePixelsPerUnit;
+	SecondarySpriteTextureU5BU5D_tC322D73EA4B9A8B747013A3584DEFEAFC0D87192* ___m_SecondaryTextures;
+};
+struct TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
+{
+	String_t* ___m_text;
+	bool ___m_IsTextBackingStringDirty;
+	RuntimeObject* ___m_TextPreprocessor;
+	bool ___m_isRightToLeft;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___m_fontAsset;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___m_currentFontAsset;
+	bool ___m_isSDFShader;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_sharedMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_currentMaterial;
+	int32_t ___m_currentMaterialIndex;
+	MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* ___m_fontSharedMaterials;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_fontMaterial;
+	MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* ___m_fontMaterials;
+	bool ___m_isMaterialDirty;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_fontColor32;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_fontColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_underlineColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_strikethroughColor;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___m_HighlightState;
+	bool ___m_ConvertToLinearSpace;
+	bool ___m_enableVertexGradient;
+	int32_t ___m_colorMode;
+	VertexGradient_t2C057B53C0EA6E987C2B7BAB0305E686DA1C9A8F ___m_fontColorGradient;
+	TMP_ColorGradient_t17B51752B4E9499A1FF7D875DCEC1D15A0F4AEBB* ___m_fontColorGradientPreset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___m_spriteAsset;
+	bool ___m_tintAllSprites;
+	bool ___m_tintSprite;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_spriteColor;
+	TMP_StyleSheet_t70C71699F5CB2D855C361DBB78A44C901236C859* ___m_StyleSheet;
+	TMP_Style_tA9E5B1B35EBFE24EF980CEA03251B638282E120C* ___m_TextStyle;
+	int32_t ___m_TextStyleHashCode;
+	bool ___m_overrideHtmlColors;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_faceColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_outlineColor;
+	float ___m_outlineWidth;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_currentEnvMapRotation;
+	bool ___m_hasEnvMapProperty;
+	float ___m_fontSize;
+	float ___m_currentFontSize;
+	float ___m_fontSizeBase;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___m_sizeStack;
+	int32_t ___m_fontWeight;
+	int32_t ___m_FontWeightInternal;
+	TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 ___m_FontWeightStack;
+	bool ___m_enableAutoSizing;
+	float ___m_maxFontSize;
+	float ___m_minFontSize;
+	int32_t ___m_AutoSizeIterationCount;
+	int32_t ___m_AutoSizeMaxIterationCount;
+	bool ___m_IsAutoSizePointSizeSet;
+	float ___m_fontSizeMin;
+	float ___m_fontSizeMax;
+	int32_t ___m_fontStyle;
+	int32_t ___m_FontStyleInternal;
+	TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC ___m_fontStyleStack;
+	bool ___m_isUsingBold;
+	int32_t ___m_HorizontalAlignment;
+	int32_t ___m_VerticalAlignment;
+	int32_t ___m_textAlignment;
+	int32_t ___m_lineJustification;
+	TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 ___m_lineJustificationStack;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_textContainerLocalCorners;
+	float ___m_characterSpacing;
+	float ___m_cSpacing;
+	float ___m_monoSpacing;
+	bool ___m_duoSpace;
+	float ___m_characterHorizontalScale;
+	float ___m_wordSpacing;
+	float ___m_lineSpacing;
+	float ___m_lineSpacingDelta;
+	float ___m_lineHeight;
+	bool ___m_IsDrivenLineSpacing;
+	float ___m_lineSpacingMax;
+	float ___m_paragraphSpacing;
+	float ___m_charWidthMaxAdj;
+	float ___m_charWidthAdjDelta;
+	int32_t ___m_TextWrappingMode;
+	bool ___m_isCharacterWrappingEnabled;
+	bool ___m_isNonBreakingSpace;
+	bool ___m_isIgnoringAlignment;
+	float ___m_wordWrappingRatios;
+	int32_t ___m_overflowMode;
+	int32_t ___m_firstOverflowCharacterIndex;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___m_linkedTextComponent;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___parentLinkedComponent;
+	bool ___m_isTextTruncated;
+	bool ___m_enableKerning;
+	int32_t ___m_LastBaseGlyphIndex;
+	List_1_t3A076A19AF26E22A128C32B5C19804DDD2877607* ___m_ActiveFontFeatures;
+	bool ___m_enableExtraPadding;
+	bool ___checkPaddingRequired;
+	bool ___m_isRichText;
+	bool ___m_EmojiFallbackSupport;
+	bool ___m_parseCtrlCharacters;
+	bool ___m_isOverlay;
+	bool ___m_isOrthographic;
+	bool ___m_isCullingEnabled;
+	bool ___m_isMaskingEnabled;
+	bool ___isMaskUpdateRequired;
+	bool ___m_ignoreCulling;
+	int32_t ___m_horizontalMapping;
+	int32_t ___m_verticalMapping;
+	float ___m_uvLineOffset;
+	int32_t ___m_renderMode;
+	int32_t ___m_geometrySortingOrder;
+	bool ___m_IsTextObjectScaleStatic;
+	bool ___m_VertexBufferAutoSizeReduction;
+	int32_t ___m_firstVisibleCharacter;
+	int32_t ___m_maxVisibleCharacters;
+	int32_t ___m_maxVisibleWords;
+	int32_t ___m_maxVisibleLines;
+	bool ___m_useMaxVisibleDescender;
+	int32_t ___m_pageToDisplay;
+	bool ___m_isNewPage;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_margin;
+	float ___m_marginLeft;
+	float ___m_marginRight;
+	float ___m_marginWidth;
+	float ___m_marginHeight;
+	float ___m_width;
+	TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* ___m_textInfo;
+	bool ___m_havePropertiesChanged;
+	bool ___m_isUsingLegacyAnimationComponent;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_transform;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_rectTransform;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_PreviousRectTransformSize;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_PreviousPivotPosition;
+	bool ___U3CautoSizeTextContainerU3Ek__BackingField;
+	bool ___m_autoSizeTextContainer;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_mesh;
+	bool ___m_isVolumetricText;
+	Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1* ___OnPreRenderText;
+	TMP_SpriteAnimator_t2E0F016A61CA343E3222FF51E7CF0E53F9F256E4* ___m_spriteAnimator;
+	float ___m_flexibleHeight;
+	float ___m_flexibleWidth;
+	float ___m_minWidth;
+	float ___m_minHeight;
+	float ___m_maxWidth;
+	float ___m_maxHeight;
+	LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* ___m_LayoutElement;
+	float ___m_preferredWidth;
+	float ___m_RenderedWidth;
+	bool ___m_isPreferredWidthDirty;
+	float ___m_preferredHeight;
+	float ___m_RenderedHeight;
+	bool ___m_isPreferredHeightDirty;
+	bool ___m_isCalculatingPreferredValues;
+	int32_t ___m_layoutPriority;
+	bool ___m_isLayoutDirty;
+	bool ___m_isAwake;
+	bool ___m_isWaitingOnResourceLoad;
+	int32_t ___m_inputSource;
+	float ___m_fontScaleMultiplier;
+	float ___tag_LineIndent;
+	float ___tag_Indent;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___m_indentStack;
+	bool ___tag_NoParsing;
+	bool ___m_isTextLayoutPhase;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___m_FXRotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_FXScale;
+	TextProcessingElementU5BU5D_tC3E97D1672C8DB6E1F91DB2C0987D0ED9A2E7113* ___m_TextProcessingArray;
+	int32_t ___m_InternalTextProcessingArraySize;
+	TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* ___m_internalCharacterInfo;
+	int32_t ___m_totalCharacterCount;
+	int32_t ___m_characterCount;
+	int32_t ___m_firstCharacterOfLine;
+	int32_t ___m_firstVisibleCharacterOfLine;
+	int32_t ___m_lastCharacterOfLine;
+	int32_t ___m_lastVisibleCharacterOfLine;
+	int32_t ___m_lineNumber;
+	int32_t ___m_lineVisibleCharacterCount;
+	int32_t ___m_lineVisibleSpaceCount;
+	int32_t ___m_pageNumber;
+	float ___m_PageAscender;
+	float ___m_maxTextAscender;
+	float ___m_maxCapHeight;
+	float ___m_ElementAscender;
+	float ___m_ElementDescender;
+	float ___m_maxLineAscender;
+	float ___m_maxLineDescender;
+	float ___m_startOfLineAscender;
+	float ___m_startOfLineDescender;
+	float ___m_lineOffset;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___m_meshExtents;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_htmlColor;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___m_colorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___m_underlineColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___m_strikethroughColorStack;
+	TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D ___m_HighlightStateStack;
+	TMP_ColorGradient_t17B51752B4E9499A1FF7D875DCEC1D15A0F4AEBB* ___m_colorGradientPreset;
+	TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C ___m_colorGradientStack;
+	bool ___m_colorGradientPresetIsTinted;
+	float ___m_tabSpacing;
+	float ___m_spacing;
+	TMP_TextProcessingStack_1U5BU5D_t08293E0BB072311BB96170F351D1083BCA97B9B2* ___m_TextStyleStacks;
+	int32_t ___m_TextStyleStackDepth;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___m_ItalicAngleStack;
+	int32_t ___m_ItalicAngle;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___m_actionStack;
+	float ___m_padding;
+	float ___m_baselineOffset;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___m_baselineOffsetStack;
+	float ___m_xAdvance;
+	int32_t ___m_textElementType;
+	TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5* ___m_cached_TextElement;
+	SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777 ___m_Ellipsis;
+	SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777 ___m_Underline;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___m_defaultSpriteAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___m_currentSpriteAsset;
+	int32_t ___m_spriteCount;
+	int32_t ___m_spriteIndex;
+	int32_t ___m_spriteAnimationID;
+	bool ___m_ignoreActiveState;
+	TextBackingContainer_t33D1CE628E7B26C45EDAC1D87BEF2DD22A5C6361 ___m_TextBackingArray;
+	DecimalU5BU5D_t93BA0C88FA80728F73B792EE1A5199D0C060B615* ___k_Power;
+};
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
+{
+	FontData_tB8E562846C6CB59C43260F69AE346B9BF3157224* ___m_FontData;
+	String_t* ___m_Text;
+	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCache;
+	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCacheForLayout;
+	bool ___m_DisableFontTextureRebuiltCallback;
+	UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* ___m_TempVerts;
+};
+struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D111_t45DA8D21BACB6BF81FAD508EA4F700D6EEC1A842 ___52C2789F064F1FCF6B75223273B7F7A21FB32463EA84FF06D117DC9E33334B68;
+	__StaticArrayInitTypeSizeU3D200_tC1BC488283310E32C2FC279DD5836449C756F371 ___81680BA3320CAACCDA09CB8BF98793B77F94E48DF4737FF970975FD202D2D348;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_StaticFields
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_DefaultUI;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___s_WhiteTexture;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___s_Mesh;
+	VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* ___s_VertexHelper;
+};
+struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712_StaticFields
+{
+	SelectableU5BU5D_t4160E135F02A40F75A63F787D36F31FEC6FE91A9* ___s_Selectables;
+	int32_t ___s_SelectableCount;
+};
+struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_ETC1DefaultUI;
+	SecondarySpriteTextureU5BU5D_tC322D73EA4B9A8B747013A3584DEFEAFC0D87192* ___s_TempNewSecondaryTextures;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___s_VertScratch;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___s_UVScratch;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___s_Xy;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___s_Uv;
+	List_1_tE6BB71ABF15905EFA2BE92C38A2716547AEADB19* ___m_TrackedTexturelessImages;
+	bool ___s_Initialized;
+};
+struct TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields
+{
+	MaterialReferenceU5BU5D_t7491D335AB3E3E13CE9C0F5E931F396F6A02E1F2* ___m_materialReferences;
+	Dictionary_2_t105D472D44D47824865F70DA14E6FF232779B17C* ___m_materialReferenceIndexLookup;
+	TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 ___m_materialReferenceStack;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___s_colorWhite;
+	Func_3_tC721DF8CDD07ED66A4833A19A2ED2302608C906C* ___OnFontAssetRequest;
+	Func_3_t6F6D9932638EA1A5A45303C6626C818C25D164E5* ___OnSpriteAssetRequest;
+	MissingCharacterEventCallback_t955241181324E0FEF9A9BDBA400E8780F8979DE6* ___OnMissingCharacter;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___m_htmlTag;
+	RichTextTagAttributeU5BU5D_t5816316EFD8F59DBC30B9F88E15828C564E47B6D* ___m_xmlAttribute;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___m_attributeParameterValues;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedWordWrapState;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedLineState;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedEllipsisState;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedLastValidState;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedSoftLineBreakState;
+	TMP_TextProcessingStack_1_t2DDA00FFC64AF6E3AFD475AB2086D16C34787E0F ___m_EllipsisInsertionCandidateStack;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_ParseTextMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_InsertNewLineMarker;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___k_LargePositiveVector2;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___k_LargeNegativeVector2;
+	float ___k_LargePositiveFloat;
+	float ___k_LargeNegativeFloat;
+	int32_t ___k_LargePositiveInt;
+	int32_t ___k_LargeNegativeInt;
+};
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_StaticFields
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_DefaultText;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct MathsLevelU5BU5D_t3CA952107C78AA45B18BB1B7CB9AFFE0987E1ACF  : public RuntimeArray
+{
+	ALIGN_FIELD (8) MathsLevel_t54ED0A3F72F09ABE36668D046B496B25414F932E* m_Items[1];
+
+	inline MathsLevel_t54ED0A3F72F09ABE36668D046B496B25414F932E* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline MathsLevel_t54ED0A3F72F09ABE36668D046B496B25414F932E** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, MathsLevel_t54ED0A3F72F09ABE36668D046B496B25414F932E* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline MathsLevel_t54ED0A3F72F09ABE36668D046B496B25414F932E* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline MathsLevel_t54ED0A3F72F09ABE36668D046B496B25414F932E** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, MathsLevel_t54ED0A3F72F09ABE36668D046B496B25414F932E* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct LevelSelectButtonU5BU5D_t16001AF314F208A82C804B72A9F668B160A8FE15  : public RuntimeArray
+{
+	ALIGN_FIELD (8) LevelSelectButton_t8CCED90692C11BEE6426AF0A3B23FEE9CC8EF750* m_Items[1];
+
+	inline LevelSelectButton_t8CCED90692C11BEE6426AF0A3B23FEE9CC8EF750* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline LevelSelectButton_t8CCED90692C11BEE6426AF0A3B23FEE9CC8EF750** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, LevelSelectButton_t8CCED90692C11BEE6426AF0A3B23FEE9CC8EF750* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline LevelSelectButton_t8CCED90692C11BEE6426AF0A3B23FEE9CC8EF750* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline LevelSelectButton_t8CCED90692C11BEE6426AF0A3B23FEE9CC8EF750** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, LevelSelectButton_t8CCED90692C11BEE6426AF0A3B23FEE9CC8EF750* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ProgressManager_get_CurrentLevel_mFE0EFF47C400EF2895CCE2ED378967185458F3B4 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_LoadLevel_m2C907BD9DB60B775100AB8A1ACDA22FC62954667 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5 (int32_t* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Numpad_ResetInput_m81E965A93D0360C0FA95CFBF3696152A610DF04F (Numpad_t393C69246800359ABA968F3772B8AD736AF66BED* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Numpad_SetCorrectAnswer_mA549AD865393ACB98EF0C8CA3EC5F693F7EDC81F (Numpad_t393C69246800359ABA968F3772B8AD736AF66BED* __this, int32_t ___0_newAnswer, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProgressManager_CompleteLevel_m7F34A329C1C941C63AC6DF43E90CA9E157E8238C (int32_t ___0_level, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_PlayOneShot_m098BCAE084AABB128BB19ED805D2D985E7B75112 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_clip, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProgressManager_set_CurrentLevel_mDD106C7DF7288806CEAAF6764AC07FA347AA5B3A (int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E (String_t* ___0_sceneName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ProgressManager_IsUnlocked_m8FD664693176B075588E44893EC21BDE86A7F531 (int32_t ___0_level, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ProgressManager_IsCompleted_m96153EEEE9622598197EB79A63D229DB1C6DC391 (int32_t ___0_level, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492 (Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuManager_PlayLevel_m5E085E9D0F7A68C07FA6788ABD2F621100B404D8 (StartMenuManager_t18BE2A0A6C72AE4B02C244F3586925068EE6D44F* __this, int32_t ___0_levelNumber, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Numpad_UpdateAnswerDisplay_m59FC0C51B8ECA4569131578C66C251A515D09E47 (Numpad_t393C69246800359ABA968F3772B8AD736AF66BED* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1 (String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Numpad_answer_m4521D0A09229492AA5ADF43681AE94A1F3F1999C (Numpad_t393C69246800359ABA968F3772B8AD736AF66BED* __this, int32_t ___0_num, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE (String_t* __this, int32_t ___0_startIndex, int32_t ___1_length, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Int32_TryParse_mC928DE2FEC1C35ED5298BDDCA9868076E94B8A21 (String_t* ___0_s, int32_t* ___1_result, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_CheckAnswer_mEF81B286D2C3BF38AEE8D1922C4D4DC9590F37C2 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, int32_t ___0_playerAnswer, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D (String_t* ___0_key, int32_t ___1_defaultValue, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline (int32_t ___0_value, int32_t ___1_min, int32_t ___2_max, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948 (String_t* ___0_key, int32_t ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline (int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_DeleteAll_m7687D47AE64203DB76AC6754EC276DFFD0DFAB0E (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuManager_ShowMainMenu_m7155D56F9939CF4E93CF25FE942CBCF24F113D61 (StartMenuManager_t18BE2A0A6C72AE4B02C244F3586925068EE6D44F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuManager_RefreshLevelButtons_mD978224809E8D1681E176F5A1D82BE33DFCADDAA (StartMenuManager_t18BE2A0A6C72AE4B02C244F3586925068EE6D44F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelSelectButton_RefreshButton_m33A955B65B92416510C24A7AAD866AE729E22E24 (LevelSelectButton_t8CCED90692C11BEE6426AF0A3B23FEE9CC8EF750* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 72270
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MathsLevel__ctor_m5FD33C885B486C9BD9CA700AD16256D5902E5335 (MathsLevel_t54ED0A3F72F09ABE36668D046B496B25414F932E* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 72271
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:38>
+		int32_t L_0;
+		L_0 = ProgressManager_get_CurrentLevel_mFE0EFF47C400EF2895CCE2ED378967185458F3B4(NULL);
+		__this->___currentLevel = ((int32_t)il2cpp_codegen_subtract(L_0, 1));
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:40>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___levelCompletePanel;
+		NullCheck(L_1);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:41>
+		GameManager_LoadLevel_m2C907BD9DB60B775100AB8A1ACDA22FC62954667(__this, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:42>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___GameComplete;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:43>
+		return;
+	}
+}
+// Method Definition Index: 72272
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_LoadLevel_m2C907BD9DB60B775100AB8A1ACDA22FC62954667 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA68AF01D35B427079781DE3A8B2923BD14263BE3);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:47>
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:48>
+		int32_t L_0 = __this->___currentLevel;
+		if ((((int32_t)L_0) < ((int32_t)0)))
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		int32_t L_1 = __this->___currentLevel;
+		MathsLevelU5BU5D_t3CA952107C78AA45B18BB1B7CB9AFFE0987E1ACF* L_2 = __this->___levels;
+		NullCheck(L_2);
+		if ((((int32_t)L_1) < ((int32_t)((int32_t)(((RuntimeArray*)L_2)->max_length)))))
+		{
+			goto IL_001a;
+		}
+	}
+
+IL_0019:
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:49>
+		return;
+	}
+
+IL_001a:
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:51>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_3 = __this->___questionText;
+		MathsLevelU5BU5D_t3CA952107C78AA45B18BB1B7CB9AFFE0987E1ACF* L_4 = __this->___levels;
+		int32_t L_5 = __this->___currentLevel;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		MathsLevel_t54ED0A3F72F09ABE36668D046B496B25414F932E* L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		NullCheck(L_7);
+		String_t* L_8 = L_7->___question;
+		NullCheck(L_3);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_3, L_8);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:52>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_9 = __this->___levelText;
+		int32_t L_10 = __this->___currentLevel;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_10, 1));
+		String_t* L_11;
+		L_11 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_0), NULL);
+		String_t* L_12;
+		L_12 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralA68AF01D35B427079781DE3A8B2923BD14263BE3, L_11, NULL);
+		NullCheck(L_9);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_9, L_12);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:54>
+		Numpad_t393C69246800359ABA968F3772B8AD736AF66BED* L_13 = __this->___numpad;
+		NullCheck(L_13);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
+		L_14 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_13, NULL);
+		NullCheck(L_14);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_14, (bool)1, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:55>
+		Numpad_t393C69246800359ABA968F3772B8AD736AF66BED* L_15 = __this->___numpad;
+		NullCheck(L_15);
+		Numpad_ResetInput_m81E965A93D0360C0FA95CFBF3696152A610DF04F(L_15, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:57>
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:58>
+		Numpad_t393C69246800359ABA968F3772B8AD736AF66BED* L_16 = __this->___numpad;
+		MathsLevelU5BU5D_t3CA952107C78AA45B18BB1B7CB9AFFE0987E1ACF* L_17 = __this->___levels;
+		int32_t L_18 = __this->___currentLevel;
+		NullCheck(L_17);
+		int32_t L_19 = L_18;
+		MathsLevel_t54ED0A3F72F09ABE36668D046B496B25414F932E* L_20 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
+		NullCheck(L_20);
+		int32_t L_21 = L_20->___correctAnswer;
+		NullCheck(L_16);
+		Numpad_SetCorrectAnswer_mA549AD865393ACB98EF0C8CA3EC5F693F7EDC81F(L_16, L_21, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:59>
+		return;
+	}
+}
+// Method Definition Index: 72273
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_CheckAnswer_mEF81B286D2C3BF38AEE8D1922C4D4DC9590F37C2 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, int32_t ___0_playerAnswer, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB06C09D3B65BD0412141145FA5AC4D25EE36635D);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:63>
+		bool L_0 = __this->___waitingForNextLevel;
+		if (L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		bool L_1 = __this->___gameFinished;
+		if (!L_1)
+		{
+			goto IL_0011;
+		}
+	}
+
+IL_0010:
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:64>
+		return;
+	}
+
+IL_0011:
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:66>
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:67>
+		int32_t L_2 = ___0_playerAnswer;
+		MathsLevelU5BU5D_t3CA952107C78AA45B18BB1B7CB9AFFE0987E1ACF* L_3 = __this->___levels;
+		int32_t L_4 = __this->___currentLevel;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		MathsLevel_t54ED0A3F72F09ABE36668D046B496B25414F932E* L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		NullCheck(L_6);
+		int32_t L_7 = L_6->___correctAnswer;
+		if ((!(((uint32_t)L_2) == ((uint32_t)L_7))))
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:69>
+		__this->___waitingForNextLevel = (bool)1;
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:72>
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:73>
+		int32_t L_8 = __this->___currentLevel;
+		ProgressManager_CompleteLevel_m7F34A329C1C941C63AC6DF43E90CA9E157E8238C(((int32_t)il2cpp_codegen_add(L_8, 1)), NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:75>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___levelCompletePanel;
+		NullCheck(L_9);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)1, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:77>
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:78>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_10 = __this->___audioSource;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_11;
+		L_11 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_10, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_11)
+		{
+			goto IL_007f;
+		}
+	}
+	{
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_12 = __this->___levelCompleteSound;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_13;
+		L_13 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_12, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_13)
+		{
+			goto IL_007f;
+		}
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:80>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_14 = __this->___audioSource;
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_15 = __this->___levelCompleteSound;
+		NullCheck(L_14);
+		AudioSource_PlayOneShot_m098BCAE084AABB128BB19ED805D2D985E7B75112(L_14, L_15, NULL);
+		goto IL_007f;
+	}
+
+IL_0075:
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:85>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralB06C09D3B65BD0412141145FA5AC4D25EE36635D, NULL);
+	}
+
+IL_007f:
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:88>
+		Numpad_t393C69246800359ABA968F3772B8AD736AF66BED* L_16 = __this->___numpad;
+		NullCheck(L_16);
+		Numpad_ResetInput_m81E965A93D0360C0FA95CFBF3696152A610DF04F(L_16, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:89>
+		return;
+	}
+}
+// Method Definition Index: 72274
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_NextLevel_m8C788DB3E42A69E16169B855F886F1DB6D43B9A0 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8F8BFCFC439A636B20C06C334A493AB7004843ED);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:93>
+		bool L_0 = __this->___waitingForNextLevel;
+		if (!L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		bool L_1 = __this->___gameFinished;
+		if (!L_1)
+		{
+			goto IL_0011;
+		}
+	}
+
+IL_0010:
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:94>
+		return;
+	}
+
+IL_0011:
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:96>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___levelCompletePanel;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:97>
+		__this->___waitingForNextLevel = (bool)0;
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:99>
+		int32_t L_3 = __this->___currentLevel;
+		MathsLevelU5BU5D_t3CA952107C78AA45B18BB1B7CB9AFFE0987E1ACF* L_4 = __this->___levels;
+		NullCheck(L_4);
+		if ((((int32_t)L_3) >= ((int32_t)((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_4)->max_length)), 1)))))
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:101>
+		int32_t L_5 = __this->___currentLevel;
+		__this->___currentLevel = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:104>
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:105>
+		int32_t L_6 = __this->___currentLevel;
+		ProgressManager_set_CurrentLevel_mDD106C7DF7288806CEAAF6764AC07FA347AA5B3A(((int32_t)il2cpp_codegen_add(L_6, 1)), NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:107>
+		GameManager_LoadLevel_m2C907BD9DB60B775100AB8A1ACDA22FC62954667(__this, NULL);
+		return;
+	}
+
+IL_0058:
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:111>
+		__this->___gameFinished = (bool)1;
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:112>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___GameComplete;
+		NullCheck(L_7);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)1, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:115>
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:116>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_8 = __this->___levelText;
+		MathsLevelU5BU5D_t3CA952107C78AA45B18BB1B7CB9AFFE0987E1ACF* L_9 = __this->___levels;
+		NullCheck(L_9);
+		V_0 = ((int32_t)(((RuntimeArray*)L_9)->max_length));
+		String_t* L_10;
+		L_10 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_0), NULL);
+		MathsLevelU5BU5D_t3CA952107C78AA45B18BB1B7CB9AFFE0987E1ACF* L_11 = __this->___levels;
+		NullCheck(L_11);
+		V_0 = ((int32_t)(((RuntimeArray*)L_11)->max_length));
+		String_t* L_12;
+		L_12 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_0), NULL);
+		String_t* L_13;
+		L_13 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_10, _stringLiteral8F8BFCFC439A636B20C06C334A493AB7004843ED, L_12, NULL);
+		NullCheck(L_8);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_8, L_13);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:118>
+		Numpad_t393C69246800359ABA968F3772B8AD736AF66BED* L_14 = __this->___numpad;
+		NullCheck(L_14);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15;
+		L_15 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_14, NULL);
+		NullCheck(L_15);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_15, (bool)0, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:120>
+		return;
+	}
+}
+// Method Definition Index: 72275
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_HomeButton_m861F71857FA5948221F4F3BF532A574C06353CD1 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral793124C2C69F7C5AD956B8E7C24C95DFD06780A5);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:123>
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral793124C2C69F7C5AD956B8E7C24C95DFD06780A5, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:124>
+		return;
+	}
+}
+// Method Definition Index: 72276
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MathsLevelU5BU5D_t3CA952107C78AA45B18BB1B7CB9AFFE0987E1ACF_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/GameManager.cs:23>
+		MathsLevelU5BU5D_t3CA952107C78AA45B18BB1B7CB9AFFE0987E1ACF* L_0 = (MathsLevelU5BU5D_t3CA952107C78AA45B18BB1B7CB9AFFE0987E1ACF*)(MathsLevelU5BU5D_t3CA952107C78AA45B18BB1B7CB9AFFE0987E1ACF*)SZArrayNew(MathsLevelU5BU5D_t3CA952107C78AA45B18BB1B7CB9AFFE0987E1ACF_il2cpp_TypeInfo_var, (uint32_t)((int32_t)30));
+		__this->___levels = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___levels), (void*)L_0);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 72277
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelSelectButton_RefreshButton_m33A955B65B92416510C24A7AAD866AE729E22E24 (LevelSelectButton_t8CCED90692C11BEE6426AF0A3B23FEE9CC8EF750* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB0519F2CF4865500EC050B17B9044F287B5D7AB6);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFBC0D19D530C684526E5CF04F2428B7B8CD4289E);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* G_B11_0 = NULL;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* G_B8_0 = NULL;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* G_B10_0 = NULL;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* G_B9_0 = NULL;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F G_B12_0;
+	memset((&G_B12_0), 0, sizeof(G_B12_0));
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* G_B12_1 = NULL;
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/LevelSelectButton.cs:23>
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/LevelSelectButton.cs:24>
+		int32_t L_0 = __this->___levelNumber;
+		bool L_1;
+		L_1 = ProgressManager_IsUnlocked_m8FD664693176B075588E44893EC21BDE86A7F531(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/LevelSelectButton.cs:26>
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/LevelSelectButton.cs:27>
+		int32_t L_2 = __this->___levelNumber;
+		bool L_3;
+		L_3 = ProgressManager_IsCompleted_m96153EEEE9622598197EB79A63D229DB1C6DC391(L_2, NULL);
+		V_1 = L_3;
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/LevelSelectButton.cs:29>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_4 = __this->___button;
+		bool L_5 = V_0;
+		NullCheck(L_4);
+		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_4, L_5, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/LevelSelectButton.cs:31>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_6 = __this->___buttonText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_7)
+		{
+			goto IL_0092;
+		}
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/LevelSelectButton.cs:33>
+		bool L_8 = V_1;
+		if (!L_8)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/LevelSelectButton.cs:34>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_9 = __this->___buttonText;
+		int32_t* L_10 = (int32_t*)(&__this->___levelNumber);
+		String_t* L_11;
+		L_11 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_10, NULL);
+		String_t* L_12;
+		L_12 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_11, _stringLiteralB0519F2CF4865500EC050B17B9044F287B5D7AB6, NULL);
+		NullCheck(L_9);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_9, L_12);
+		goto IL_0092;
+	}
+
+IL_0057:
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/LevelSelectButton.cs:35>
+		bool L_13 = V_0;
+		if (!L_13)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/LevelSelectButton.cs:36>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_14 = __this->___buttonText;
+		int32_t* L_15 = (int32_t*)(&__this->___levelNumber);
+		String_t* L_16;
+		L_16 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_15, NULL);
+		NullCheck(L_14);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_14, L_16);
+		goto IL_0092;
+	}
+
+IL_0072:
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/LevelSelectButton.cs:38>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_17 = __this->___buttonText;
+		int32_t* L_18 = (int32_t*)(&__this->___levelNumber);
+		String_t* L_19;
+		L_19 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_18, NULL);
+		String_t* L_20;
+		L_20 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_19, _stringLiteralFBC0D19D530C684526E5CF04F2428B7B8CD4289E, NULL);
+		NullCheck(L_17);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_17, L_20);
+	}
+
+IL_0092:
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/LevelSelectButton.cs:41>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_21 = __this->___buttonImage;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_22;
+		L_22 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_21, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_22)
+		{
+			goto IL_00c7;
+		}
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/LevelSelectButton.cs:43>
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/LevelSelectButton.cs:44>
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/LevelSelectButton.cs:45>
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/LevelSelectButton.cs:46>
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/LevelSelectButton.cs:47>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_23 = __this->___buttonImage;
+		bool L_24 = V_1;
+		if (L_24)
+		{
+			G_B11_0 = L_23;
+			goto IL_00bc;
+		}
+		G_B8_0 = L_23;
+	}
+	{
+		bool L_25 = V_0;
+		if (L_25)
+		{
+			G_B10_0 = G_B8_0;
+			goto IL_00b4;
+		}
+		G_B9_0 = G_B8_0;
+	}
+	{
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_26 = __this->___lockedColor;
+		G_B12_0 = L_26;
+		G_B12_1 = G_B9_0;
+		goto IL_00c2;
+	}
+
+IL_00b4:
+	{
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_27 = __this->___unlockedColor;
+		G_B12_0 = L_27;
+		G_B12_1 = G_B10_0;
+		goto IL_00c2;
+	}
+
+IL_00bc:
+	{
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_28 = __this->___completedColor;
+		G_B12_0 = L_28;
+		G_B12_1 = G_B11_0;
+	}
+
+IL_00c2:
+	{
+		NullCheck(G_B12_1);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, G_B12_1, G_B12_0);
+	}
+
+IL_00c7:
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/LevelSelectButton.cs:49>
+		return;
+	}
+}
+// Method Definition Index: 72278
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelSelectButton_OnClick_mB99739FAB2DEB36AEC8ACBA7F257FFF9642B68EC (LevelSelectButton_t8CCED90692C11BEE6426AF0A3B23FEE9CC8EF750* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/LevelSelectButton.cs:53>
+		StartMenuManager_t18BE2A0A6C72AE4B02C244F3586925068EE6D44F* L_0 = __this->___menuManager;
+		int32_t L_1 = __this->___levelNumber;
+		NullCheck(L_0);
+		StartMenuManager_PlayLevel_m5E085E9D0F7A68C07FA6788ABD2F621100B404D8(L_0, L_1, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/LevelSelectButton.cs:54>
+		return;
+	}
+}
+// Method Definition Index: 72279
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelSelectButton__ctor_m8E88C0CE21E1E1E19CDD278DAFB757038CDF8A76 (LevelSelectButton_t8CCED90692C11BEE6426AF0A3B23FEE9CC8EF750* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/LevelSelectButton.cs:8>
+		__this->___levelNumber = 1;
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/LevelSelectButton.cs:15>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_0), (0.119999997f), (0.550000012f), (1.0f), NULL);
+		__this->___unlockedColor = L_0;
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/LevelSelectButton.cs:17>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_1), (0.150000006f), (0.75f), (0.300000012f), NULL);
+		__this->___completedColor = L_1;
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/LevelSelectButton.cs:19>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
+		memset((&L_2), 0, sizeof(L_2));
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&L_2), (0.349999994f), (0.379999995f), (0.449999988f), NULL);
+		__this->___lockedColor = L_2;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 72280
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Numpad_answer_m4521D0A09229492AA5ADF43681AE94A1F3F1999C (Numpad_t393C69246800359ABA968F3772B8AD736AF66BED* __this, int32_t ___0_num, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:17>
+		String_t* L_0 = __this->___currentAnswer;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_0, NULL);
+		if ((((int32_t)L_1) < ((int32_t)((int32_t)9))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:18>
+		return;
+	}
+
+IL_0010:
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:20>
+		String_t* L_2 = __this->___currentAnswer;
+		String_t* L_3;
+		L_3 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&___0_num), NULL);
+		String_t* L_4;
+		L_4 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_2, L_3, NULL);
+		__this->___currentAnswer = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentAnswer), (void*)L_4);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:21>
+		Numpad_UpdateAnswerDisplay_m59FC0C51B8ECA4569131578C66C251A515D09E47(__this, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:22>
+		return;
+	}
+}
+// Method Definition Index: 72281
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Numpad_ResetInput_m81E965A93D0360C0FA95CFBF3696152A610DF04F (Numpad_t393C69246800359ABA968F3772B8AD736AF66BED* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:25>
+		__this->___currentAnswer = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentAnswer), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:26>
+		Numpad_UpdateAnswerDisplay_m59FC0C51B8ECA4569131578C66C251A515D09E47(__this, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:27>
+		return;
+	}
+}
+// Method Definition Index: 72282
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Numpad_UpdateAnswerDisplay_m59FC0C51B8ECA4569131578C66C251A515D09E47 (Numpad_t393C69246800359ABA968F3772B8AD736AF66BED* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* G_B3_0 = NULL;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* G_B2_0 = NULL;
+	String_t* G_B4_0 = NULL;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* G_B4_1 = NULL;
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:30>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___answerText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:31>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_2 = __this->___answerText;
+		String_t* L_3 = __this->___currentAnswer;
+		bool L_4;
+		L_4 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_3, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		if (L_4)
+		{
+			G_B3_0 = L_2;
+			goto IL_002e;
+		}
+		G_B2_0 = L_2;
+	}
+	{
+		String_t* L_5 = __this->___currentAnswer;
+		G_B4_0 = L_5;
+		G_B4_1 = G_B2_0;
+		goto IL_0033;
+	}
+
+IL_002e:
+	{
+		G_B4_0 = _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745;
+		G_B4_1 = G_B3_0;
+	}
+
+IL_0033:
+	{
+		NullCheck(G_B4_1);
+		VirtualActionInvoker1< String_t* >::Invoke(66, G_B4_1, G_B4_0);
+	}
+
+IL_0038:
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:32>
+		return;
+	}
+}
+// Method Definition Index: 72283
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Numpad_num0_mDF89D8C9B07393993B9AE16D5BF06AB1C8E90840 (Numpad_t393C69246800359ABA968F3772B8AD736AF66BED* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:36>
+		Numpad_answer_m4521D0A09229492AA5ADF43681AE94A1F3F1999C(__this, 0, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:37>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___AD;
+		NullCheck(L_0);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_0, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:38>
+		return;
+	}
+}
+// Method Definition Index: 72284
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Numpad_num1_mCFC748385FC547B5ECB0933360B4F4D9976C9812 (Numpad_t393C69246800359ABA968F3772B8AD736AF66BED* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:41>
+		Numpad_answer_m4521D0A09229492AA5ADF43681AE94A1F3F1999C(__this, 1, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:42>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___AD;
+		NullCheck(L_0);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_0, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:43>
+		return;
+	}
+}
+// Method Definition Index: 72285
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Numpad_num2_mD392DB59500A78A5C199107D2EC4762B5B08D571 (Numpad_t393C69246800359ABA968F3772B8AD736AF66BED* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:46>
+		Numpad_answer_m4521D0A09229492AA5ADF43681AE94A1F3F1999C(__this, 2, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:47>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___AD;
+		NullCheck(L_0);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_0, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:48>
+		return;
+	}
+}
+// Method Definition Index: 72286
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Numpad_num3_m1C90CCB2BF24165F7DF17491D3B61EBBFEA849B4 (Numpad_t393C69246800359ABA968F3772B8AD736AF66BED* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:50>
+		Numpad_answer_m4521D0A09229492AA5ADF43681AE94A1F3F1999C(__this, 3, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:51>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___AD;
+		NullCheck(L_0);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_0, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:52>
+		return;
+	}
+}
+// Method Definition Index: 72287
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Numpad_num4_mD9F385E24272B585B36B9CA57E5E4D413B3EEA7C (Numpad_t393C69246800359ABA968F3772B8AD736AF66BED* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:53>
+		Numpad_answer_m4521D0A09229492AA5ADF43681AE94A1F3F1999C(__this, 4, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:54>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___AD;
+		NullCheck(L_0);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_0, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:55>
+		return;
+	}
+}
+// Method Definition Index: 72288
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Numpad_num5_m3D50D9693469CF6210C2AD12CDCABA080EFF6112 (Numpad_t393C69246800359ABA968F3772B8AD736AF66BED* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:57>
+		Numpad_answer_m4521D0A09229492AA5ADF43681AE94A1F3F1999C(__this, 5, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:57>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___AD;
+		NullCheck(L_0);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_0, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:58>
+		return;
+	}
+}
+// Method Definition Index: 72289
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Numpad_num6_m59F8B24DC729FF14D1689E2E3D1EFA413815E140 (Numpad_t393C69246800359ABA968F3772B8AD736AF66BED* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:60>
+		Numpad_answer_m4521D0A09229492AA5ADF43681AE94A1F3F1999C(__this, 6, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:60>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___AD;
+		NullCheck(L_0);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_0, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:61>
+		return;
+	}
+}
+// Method Definition Index: 72290
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Numpad_num7_m9E5A84063414FA8DB6F22420DCBB5BBCA77F37FB (Numpad_t393C69246800359ABA968F3772B8AD736AF66BED* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:63>
+		Numpad_answer_m4521D0A09229492AA5ADF43681AE94A1F3F1999C(__this, 7, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:63>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___AD;
+		NullCheck(L_0);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_0, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:64>
+		return;
+	}
+}
+// Method Definition Index: 72291
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Numpad_num8_m6A8D4C4601320DE2713F6FB2D3824B291FB3A661 (Numpad_t393C69246800359ABA968F3772B8AD736AF66BED* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:66>
+		Numpad_answer_m4521D0A09229492AA5ADF43681AE94A1F3F1999C(__this, 8, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:66>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___AD;
+		NullCheck(L_0);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_0, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:67>
+		return;
+	}
+}
+// Method Definition Index: 72292
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Numpad_num9_m52D82860B2DA1727380AA45B416F41820F78C298 (Numpad_t393C69246800359ABA968F3772B8AD736AF66BED* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:69>
+		Numpad_answer_m4521D0A09229492AA5ADF43681AE94A1F3F1999C(__this, ((int32_t)9), NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:69>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___AD;
+		NullCheck(L_0);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_0, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:70>
+		return;
+	}
+}
+// Method Definition Index: 72293
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Numpad_numX_m663DDD1BB2E8BBBEDB1D000A63AB0FE504640ADE (Numpad_t393C69246800359ABA968F3772B8AD736AF66BED* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:74>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___AD;
+		NullCheck(L_0);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_0, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:75>
+		String_t* L_1 = __this->___currentAnswer;
+		NullCheck(L_1);
+		int32_t L_2;
+		L_2 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_1, NULL);
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:77>
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:78>
+		String_t* L_3 = __this->___currentAnswer;
+		String_t* L_4 = __this->___currentAnswer;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_4, NULL);
+		NullCheck(L_3);
+		String_t* L_6;
+		L_6 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_3, 0, ((int32_t)il2cpp_codegen_subtract(L_5, 1)), NULL);
+		__this->___currentAnswer = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentAnswer), (void*)L_6);
+	}
+
+IL_0038:
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:81>
+		Numpad_UpdateAnswerDisplay_m59FC0C51B8ECA4569131578C66C251A515D09E47(__this, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:82>
+		return;
+	}
+}
+// Method Definition Index: 72294
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Numpad_numQ_m29EE28F167AFB67CBC3F36C70B4DFF7D23FB9FFF (Numpad_t393C69246800359ABA968F3772B8AD736AF66BED* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:87>
+		String_t* L_0 = __this->___currentAnswer;
+		bool L_1;
+		L_1 = Int32_TryParse_mC928DE2FEC1C35ED5298BDDCA9868076E94B8A21(L_0, (&V_0), NULL);
+		if (L_1)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:89>
+		Numpad_ResetInput_m81E965A93D0360C0FA95CFBF3696152A610DF04F(__this, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:90>
+		return;
+	}
+
+IL_0016:
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:93>
+		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_2 = __this->___gameManager;
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		GameManager_CheckAnswer_mEF81B286D2C3BF38AEE8D1922C4D4DC9590F37C2(L_2, L_3, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:94>
+		return;
+	}
+}
+// Method Definition Index: 72295
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Numpad_SetCorrectAnswer_mA549AD865393ACB98EF0C8CA3EC5F693F7EDC81F (Numpad_t393C69246800359ABA968F3772B8AD736AF66BED* __this, int32_t ___0_newAnswer, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:99>
+		int32_t L_0 = ___0_newAnswer;
+		__this->___correctAnswer = L_0;
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:100>
+		__this->___currentAnswer = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentAnswer), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:101>
+		Numpad_UpdateAnswerDisplay_m59FC0C51B8ECA4569131578C66C251A515D09E47(__this, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:102>
+		return;
+	}
+}
+// Method Definition Index: 72296
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Numpad__ctor_m670A0218B7A8F3AC8AA42C898DF51E55D0CC5B95 (Numpad_t393C69246800359ABA968F3772B8AD736AF66BED* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:7>
+		__this->___correctAnswer = 5;
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/Numpad.cs:12>
+		__this->___currentAnswer = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentAnswer), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 72297
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ProgressManager_get_CurrentLevel_mFE0EFF47C400EF2895CCE2ED378967185458F3B4 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2A09DF75C5D61E7FBE9E93BB970FB25C6C2144C0);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/ProgressManager.cs:17>
+		int32_t L_0;
+		L_0 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteral2A09DF75C5D61E7FBE9E93BB970FB25C6C2144C0, 1, NULL);
+		int32_t L_1;
+		L_1 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_0, 1, ((int32_t)30), NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 72298
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProgressManager_set_CurrentLevel_mDD106C7DF7288806CEAAF6764AC07FA347AA5B3A (int32_t ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2A09DF75C5D61E7FBE9E93BB970FB25C6C2144C0);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/ProgressManager.cs:21>
+		int32_t L_0 = ___0_value;
+		int32_t L_1;
+		L_1 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_0, 1, ((int32_t)30), NULL);
+		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteral2A09DF75C5D61E7FBE9E93BB970FB25C6C2144C0, L_1, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/ProgressManager.cs:23>
+		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/ProgressManager.cs:24>
+		return;
+	}
+}
+// Method Definition Index: 72299
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ProgressManager_IsCompleted_m96153EEEE9622598197EB79A63D229DB1C6DC391 (int32_t ___0_level, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD7951D621CA910E08FEFFEE2059034A2219CF376);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/ProgressManager.cs:29>
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/ProgressManager.cs:30>
+		String_t* L_0;
+		L_0 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&___0_level), NULL);
+		String_t* L_1;
+		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralD7951D621CA910E08FEFFEE2059034A2219CF376, L_0, NULL);
+		int32_t L_2;
+		L_2 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(L_1, 0, NULL);
+		return (bool)((((int32_t)L_2) == ((int32_t)1))? 1 : 0);
+	}
+}
+// Method Definition Index: 72300
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ProgressManager_IsUnlocked_m8FD664693176B075588E44893EC21BDE86A7F531 (int32_t ___0_level, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/ProgressManager.cs:35>
+		int32_t L_0 = ___0_level;
+		if ((((int32_t)L_0) < ((int32_t)1)))
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		int32_t L_1 = ___0_level;
+		if ((((int32_t)L_1) <= ((int32_t)((int32_t)30))))
+		{
+			goto IL_000b;
+		}
+	}
+
+IL_0009:
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/ProgressManager.cs:36>
+		return (bool)0;
+	}
+
+IL_000b:
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/ProgressManager.cs:39>
+		int32_t L_2 = ___0_level;
+		if ((!(((uint32_t)L_2) == ((uint32_t)1))))
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/ProgressManager.cs:40>
+		return (bool)1;
+	}
+
+IL_0011:
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/ProgressManager.cs:43>
+		int32_t L_3 = ___0_level;
+		bool L_4;
+		L_4 = ProgressManager_IsCompleted_m96153EEEE9622598197EB79A63D229DB1C6DC391(L_3, NULL);
+		if (!L_4)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/ProgressManager.cs:44>
+		return (bool)1;
+	}
+
+IL_001b:
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/ProgressManager.cs:48>
+		int32_t L_5 = ___0_level;
+		bool L_6;
+		L_6 = ProgressManager_IsCompleted_m96153EEEE9622598197EB79A63D229DB1C6DC391(((int32_t)il2cpp_codegen_subtract(L_5, 1)), NULL);
+		return L_6;
+	}
+}
+// Method Definition Index: 72301
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProgressManager_CompleteLevel_m7F34A329C1C941C63AC6DF43E90CA9E157E8238C (int32_t ___0_level, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD7951D621CA910E08FEFFEE2059034A2219CF376);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/ProgressManager.cs:53>
+		String_t* L_0;
+		L_0 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&___0_level), NULL);
+		String_t* L_1;
+		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralD7951D621CA910E08FEFFEE2059034A2219CF376, L_0, NULL);
+		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(L_1, 1, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/ProgressManager.cs:56>
+		int32_t L_2 = ___0_level;
+		if ((((int32_t)L_2) >= ((int32_t)((int32_t)30))))
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/ProgressManager.cs:58>
+		int32_t L_3;
+		L_3 = ProgressManager_get_CurrentLevel_mFE0EFF47C400EF2895CCE2ED378967185458F3B4(NULL);
+		int32_t L_4 = ___0_level;
+		int32_t L_5;
+		L_5 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(L_3, ((int32_t)il2cpp_codegen_add(L_4, 1)), NULL);
+		ProgressManager_set_CurrentLevel_mDD106C7DF7288806CEAAF6764AC07FA347AA5B3A(L_5, NULL);
+	}
+
+IL_002e:
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/ProgressManager.cs:61>
+		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/ProgressManager.cs:62>
+		return;
+	}
+}
+// Method Definition Index: 72302
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProgressManager_ResetGame_mC63D6925F9C785F9B83793D03436B4CE3458D796 (const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/ProgressManager.cs:65>
+		PlayerPrefs_DeleteAll_m7687D47AE64203DB76AC6754EC276DFFD0DFAB0E(NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/ProgressManager.cs:66>
+		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/ProgressManager.cs:67>
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 72303
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuManager_Start_m91F76E91D5739295A533D9A4505C1C230E469C25 (StartMenuManager_t18BE2A0A6C72AE4B02C244F3586925068EE6D44F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/StartMenuManager.cs:15>
+		StartMenuManager_ShowMainMenu_m7155D56F9939CF4E93CF25FE942CBCF24F113D61(__this, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/StartMenuManager.cs:16>
+		StartMenuManager_RefreshLevelButtons_mD978224809E8D1681E176F5A1D82BE33DFCADDAA(__this, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/StartMenuManager.cs:17>
+		return;
+	}
+}
+// Method Definition Index: 72304
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuManager_ShowMainMenu_m7155D56F9939CF4E93CF25FE942CBCF24F113D61 (StartMenuManager_t18BE2A0A6C72AE4B02C244F3586925068EE6D44F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/StartMenuManager.cs:21>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___mainMenuPanel;
+		NullCheck(L_0);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/StartMenuManager.cs:22>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___levelSelectionPanel;
+		NullCheck(L_1);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/StartMenuManager.cs:23>
+		return;
+	}
+}
+// Method Definition Index: 72305
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuManager_OpenLevelSelection_mD78964C3FCEC1C48F252EF03F241A924883DAF3C (StartMenuManager_t18BE2A0A6C72AE4B02C244F3586925068EE6D44F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/StartMenuManager.cs:27>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___mainMenuPanel;
+		NullCheck(L_0);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/StartMenuManager.cs:28>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___levelSelectionPanel;
+		NullCheck(L_1);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)1, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/StartMenuManager.cs:30>
+		StartMenuManager_RefreshLevelButtons_mD978224809E8D1681E176F5A1D82BE33DFCADDAA(__this, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/StartMenuManager.cs:31>
+		return;
+	}
+}
+// Method Definition Index: 72306
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuManager_RefreshLevelButtons_mD978224809E8D1681E176F5A1D82BE33DFCADDAA (StartMenuManager_t18BE2A0A6C72AE4B02C244F3586925068EE6D44F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	LevelSelectButtonU5BU5D_t16001AF314F208A82C804B72A9F668B160A8FE15* V_0 = NULL;
+	int32_t V_1 = 0;
+	LevelSelectButton_t8CCED90692C11BEE6426AF0A3B23FEE9CC8EF750* V_2 = NULL;
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/StartMenuManager.cs:36>
+		LevelSelectButtonU5BU5D_t16001AF314F208A82C804B72A9F668B160A8FE15* L_0 = __this->___levelButtons;
+		V_0 = L_0;
+		V_1 = 0;
+		goto IL_0022;
+	}
+
+IL_000b:
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/StartMenuManager.cs:35>
+		LevelSelectButtonU5BU5D_t16001AF314F208A82C804B72A9F668B160A8FE15* L_1 = V_0;
+		int32_t L_2 = V_1;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		LevelSelectButton_t8CCED90692C11BEE6426AF0A3B23FEE9CC8EF750* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		V_2 = L_4;
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/StartMenuManager.cs:38>
+		LevelSelectButton_t8CCED90692C11BEE6426AF0A3B23FEE9CC8EF750* L_5 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_6;
+		L_6 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_6)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/StartMenuManager.cs:39>
+		LevelSelectButton_t8CCED90692C11BEE6426AF0A3B23FEE9CC8EF750* L_7 = V_2;
+		NullCheck(L_7);
+		LevelSelectButton_RefreshButton_m33A955B65B92416510C24A7AAD866AE729E22E24(L_7, NULL);
+	}
+
+IL_001e:
+	{
+		int32_t L_8 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_8, 1));
+	}
+
+IL_0022:
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/StartMenuManager.cs:36>
+		int32_t L_9 = V_1;
+		LevelSelectButtonU5BU5D_t16001AF314F208A82C804B72A9F668B160A8FE15* L_10 = V_0;
+		NullCheck(L_10);
+		if ((((int32_t)L_9) < ((int32_t)((int32_t)(((RuntimeArray*)L_10)->max_length)))))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/StartMenuManager.cs:41>
+		return;
+	}
+}
+// Method Definition Index: 72307
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuManager_StartGame_m1C2914B61E8D8DE2E17358D337E918A337022659 (StartMenuManager_t18BE2A0A6C72AE4B02C244F3586925068EE6D44F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3E538D25AD88E153C305B95581F14918239F2431);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/StartMenuManager.cs:46>
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral3E538D25AD88E153C305B95581F14918239F2431, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/StartMenuManager.cs:47>
+		return;
+	}
+}
+// Method Definition Index: 72308
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuManager_PlayLevel_m5E085E9D0F7A68C07FA6788ABD2F621100B404D8 (StartMenuManager_t18BE2A0A6C72AE4B02C244F3586925068EE6D44F* __this, int32_t ___0_levelNumber, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3E538D25AD88E153C305B95581F14918239F2431);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/StartMenuManager.cs:52>
+		int32_t L_0 = ___0_levelNumber;
+		bool L_1;
+		L_1 = ProgressManager_IsUnlocked_m8FD664693176B075588E44893EC21BDE86A7F531(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/StartMenuManager.cs:53>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/StartMenuManager.cs:55>
+		int32_t L_2 = ___0_levelNumber;
+		ProgressManager_set_CurrentLevel_mDD106C7DF7288806CEAAF6764AC07FA347AA5B3A(L_2, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/StartMenuManager.cs:56>
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral3E538D25AD88E153C305B95581F14918239F2431, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/StartMenuManager.cs:57>
+		return;
+	}
+}
+// Method Definition Index: 72309
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuManager_ExitGame_m0395ECE7B66531B2FD58BF9EF57C1A79AA875FD3 (StartMenuManager_t18BE2A0A6C72AE4B02C244F3586925068EE6D44F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/StartMenuManager.cs:60>
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/StartMenuManager.cs:61>
+		return;
+	}
+}
+// Method Definition Index: 72310
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuManager_HomeButton_mD3E7564066E9D843AECAC8C7851E3587C1E56AC7 (StartMenuManager_t18BE2A0A6C72AE4B02C244F3586925068EE6D44F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral793124C2C69F7C5AD956B8E7C24C95DFD06780A5);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/StartMenuManager.cs:64>
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral793124C2C69F7C5AD956B8E7C24C95DFD06780A5, NULL);
+		//<source_info:D:/GAMES/MathsGame/Assets/Scripts/StartMenuManager.cs:65>
+		return;
+	}
+}
+// Method Definition Index: 72311
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuManager__ctor_m9083E0B61BE62D96D8144EC16D955C9002F3725A (StartMenuManager_t18BE2A0A6C72AE4B02C244F3586925068EE6D44F* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 72312
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____52C2789F064F1FCF6B75223273B7F7A21FB32463EA84FF06D117DC9E33334B68_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____81680BA3320CAACCDA09CB8BF98793B77F94E48DF4737FF970975FD202D2D348_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)200));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____81680BA3320CAACCDA09CB8BF98793B77F94E48DF4737FF970975FD202D2D348_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		(&V_0)->___FilePathsData = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)111));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____52C2789F064F1FCF6B75223273B7F7A21FB32463EA84FF06D117DC9E33334B68_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		(&V_0)->___TypesData = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
+		(&V_0)->___TotalFiles = 5;
+		(&V_0)->___TotalTypes = 6;
+		(&V_0)->___IsEditorOnly = (bool)0;
+		MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 72313
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke_back(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke_cleanup(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com_back(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com_cleanup(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 35129
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_r;
+		__this->___r = L_0;
+		float L_1 = ___1_g;
+		__this->___g = L_1;
+		float L_2 = ___2_b;
+		__this->___b = L_2;
+		__this->___a = (1.0f);
+		return;
+	}
+}
+// Method Definition Index: 425
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____stringLength;
+		return L_0;
+	}
+}
+// Method Definition Index: 35391
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline (int32_t ___0_value, int32_t ___1_min, int32_t ___2_max, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___0_value;
+		int32_t L_1 = ___1_min;
+		if ((((int32_t)L_0) < ((int32_t)L_1)))
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		int32_t L_2 = ___0_value;
+		int32_t L_3 = ___2_max;
+		if ((((int32_t)L_2) > ((int32_t)L_3)))
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		int32_t L_4 = ___0_value;
+		return L_4;
+	}
+
+IL_000a:
+	{
+		int32_t L_5 = ___2_max;
+		return L_5;
+	}
+
+IL_000c:
+	{
+		int32_t L_6 = ___1_min;
+		return L_6;
+	}
+}
+// Method Definition Index: 35377
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline (int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___0_a;
+		int32_t L_1 = ___1_b;
+		if ((((int32_t)L_0) > ((int32_t)L_1)))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		int32_t L_2 = ___1_b;
+		return L_2;
+	}
+
+IL_0006:
+	{
+		int32_t L_3 = ___0_a;
+		return L_3;
+	}
+}
